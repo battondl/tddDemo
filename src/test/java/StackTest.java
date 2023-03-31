@@ -15,6 +15,11 @@ public class StackTest {
     }
 
     @Test
+    void stackInit() {
+        assertNotNull(stack);
+    }
+
+    @Test
     void isEmptyReturnsTrueIfEmpty() {
 
         assertTrue(stack.isEmpty());
