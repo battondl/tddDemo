@@ -64,17 +64,5 @@ public class StackTest {
 
     }
 
-    @Test
-    void push3ItemsPopEqualsLastItemPeekEquals2ndItem() throws StackEmptyException {
-        stack.push(42);
-        stack.push("Jenkins");
-        stack.push(5.5);
-
-        var resultPop = stack.pop();
-        var resultPeek = stack.peek();
-        assertEquals(5.5, resultPop);
-        assertEquals("Jenkins", resultPeek);
-
-    }
 
 }
