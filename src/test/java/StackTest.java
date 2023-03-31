@@ -15,7 +15,7 @@ public class StackTest {
     }
 
     @Test
-    void stackInti() {
+    void stackInit() {
         assertNotNull(stack);
     }
 }
