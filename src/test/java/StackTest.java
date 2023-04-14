@@ -53,7 +53,7 @@ public class StackTest {
     }
 
     @Test
-    void popReturnsNullIfEmptyh() {
+    void popReturnsNullIfEmpty() {
         assertNull(stack.pop());
     }
 
